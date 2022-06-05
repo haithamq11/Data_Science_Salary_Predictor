@@ -63,13 +63,19 @@ First, I transformed the categorical variables into dummy variables. I also spli
 I tried seven different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
 
 These are the models:
+
 **Linear Regression –** explainable method and faster to train than other machine learning models. 
+
 **Ridge model-** less prone to overfitting and interpretable.
+
 **Lasso model-** can handle high-dimensional data and no need for feature selection.
+
 **ElasticNet model-** This gives us the benefits of both Lasso and Ridge regression. It has been found to have predictive power better than Lasso, while still performing feature selection.
 
 **Support Vector Regressor model-** SVR is robust to the outliers. SVR performs lower computation compared to other regression techniques.
+
 **Decision Tree Regressor model-** explainable and interpretable.
+
 **Random Forest Regressor model-** reduces overfitting and higher accuracy compared to other models.
 
 ## Model performance
@@ -77,9 +83,15 @@ These are the models:
 The Decision Tree model far outperformed the other approaches on the test and validation sets.
 
 **Decision Tree Regressor model:** MAE = 8.3
+
 **Support Vector Regressor model:** MAE = 10.62
+
 **Random Forest Regressor model:** MAE = 11.72
+
 **Linear Regression:** MAE = 18.83 
+
 **Ridge model:** MAE = 19.44
+
 **Lasso model:** MAE = 19.44
+
 **ElasticNet model:** MAE = 25.35
