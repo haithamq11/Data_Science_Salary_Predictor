@@ -48,11 +48,11 @@ The data was cleaned by Ken Jee before fed to model. these are the changes as fo
 * Added a column for if the job was at the company’s headquarters
 * Transformed founded date into age of company
 * Made columns for if different skills were listed in the job description:
- 1. Python
- 2. R
- 3. Excel
- 4. AWS
- 5. Spark
+    * Python
+    * R
+    * Excel
+    * AWS
+    * Spark
 * Column for simplified job title and Seniority
 * Column for description length
 
