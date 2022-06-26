@@ -95,4 +95,3 @@ The Decision Tree model far outperformed the other approaches on the test and va
 **Lasso model:** MAE = 19.44
 
 **ElasticNet model:** MAE = 25.35
-
